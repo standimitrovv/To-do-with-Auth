@@ -24,7 +24,7 @@ const SignupForm = () => {
     setIsLoading(true);
     // Fetch the signup link
     fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]", //Get your firebase api and put it after the '=' sign
+      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API_KEY]', //Get your firebase API Key and put it after the '=' sign
       {
         method: "POST",
         headers: {
