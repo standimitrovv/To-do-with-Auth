@@ -1,0 +1,92 @@
+.section {
+  height: 100vh;
+  background: #b9faf8;
+  position: relative;
+}
+
+.form {
+  height: 40rem;
+  width: 35rem;
+  background: white;
+  color: black;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+}
+
+.email label,
+.password label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.email input,
+.password input {
+  padding: 1rem 1.5rem;
+  border: 1px solid gray;
+  width: 30rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  outline: none;
+  font-size: 2rem;
+}
+
+.btn {
+  width: 30rem;
+  color: white;
+  background: #5c5d8d;
+  padding: 1rem 1.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.btn:hover,
+.btn:active {
+  background: #2e294e;
+}
+
+.member {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.signup {
+  text-decoration: none;
+}
+
+.error {
+  font-size: 1.8rem;
+  color: red;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

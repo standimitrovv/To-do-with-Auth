@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 5rem;
+  margin-top: 1rem;
+  display: grid;
+  padding: 0 2rem;
+  grid-template-columns: 10% 80% 10%;
+  justify-items: space-around;
+  align-items: center;
+  grid-gap: 1rem;
+}
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.input {
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+}
+
+.input:focus {
+  border-bottom: 1px solid black;
+}
+.btnAddTask {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  width: 5rem;
+}

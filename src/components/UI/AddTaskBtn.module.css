@@ -1,0 +1,18 @@
+.btnContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: blue;
+  padding: 1rem 2.9rem;
+  border-bottom: 1px solid gray;
+}
+
+.btn {
+  font-size: 1.7rem;
+  background: none;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+  color: blue;
+  cursor: pointer;
+}

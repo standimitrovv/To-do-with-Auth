@@ -1,0 +1,32 @@
+.sectionDay {
+  width: 80rem;
+  height: 100%;
+}
+
+.header {
+  height: 20.5rem;
+  width: 100%;
+  background: linear-gradient(#ffbd00, #9e0059);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1rem 2rem;
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
+.h1Day {
+  font-size: 4.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.date {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.main {
+  font-size: 1.6rem;
+}
