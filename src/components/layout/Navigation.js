@@ -69,7 +69,7 @@ const Navigation = (props) => {
   };
 
   const logoutHandler = () => {
-    history.replace('/');
+    authCtx.logout();
   };
 
   return (
