@@ -9,7 +9,7 @@ import TasksList from '../tasks/TasksList';
 
 const NewList = () => {
   const location = useLocation();
-  const [emptyStr, section, listName] = location.pathname.split('/');
+  const [, section, listName] = location.pathname.split('/');
 
   const isTasking = useSelector((state) => state.newList.isTasking);
   const tasks = useSelector((state) => state.newList.tasks);

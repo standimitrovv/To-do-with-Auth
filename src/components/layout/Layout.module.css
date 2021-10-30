@@ -15,5 +15,5 @@
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  border-radius: 3px;
+  border-radius: 5px;
 }

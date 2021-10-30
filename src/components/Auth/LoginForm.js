@@ -23,7 +23,7 @@ const LoginForm = () => {
     const password = enteredPassword.current.value;
     setIsLoading(true);
     fetch(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API_KEY]', //Get your firebase api key and put it after the '=' sign
+      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDTLAaJ8Kjj352BYYYsTgEd2rPhCW7oPxU',
       {
         method: 'POST',
         headers: {

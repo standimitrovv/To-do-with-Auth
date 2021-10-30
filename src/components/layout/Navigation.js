@@ -1,7 +1,7 @@
 import classes from './Navigation.module.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useHistory } from 'react-router';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { myDayActions } from '../store/myDay-slice';
 import { importantActions } from '../store/important-slice';
@@ -17,7 +17,6 @@ const Navigation = (props) => {
 
   const [showModal, setShowModal] = useState(false);
 
-  const history = useHistory();
   const newListValue = useRef();
 
   const dispatch = useDispatch();

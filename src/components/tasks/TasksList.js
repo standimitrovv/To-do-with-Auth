@@ -43,12 +43,12 @@ const TasksList = (props) => {
         <input type='checkbox' onClick={completedTaskHandler} />
         <span>{props.item}</span>
         {!inImportant && (
-          <a href='#' className={classes.icon}>
+          <button className={classes.icon}>
             <i
               className={`far fa-star ${classes.iconStar}`}
               onClick={favoriteTaskHandler}
             ></i>
-          </a>
+          </button>
         )}
       </li>
     </ul>

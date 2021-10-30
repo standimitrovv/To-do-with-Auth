@@ -101,3 +101,9 @@
   outline: none;
   cursor: text;
 }
+
+@media screen and (max-width: 480px) {
+  .nav {
+    width: 15rem;
+  }
+}
