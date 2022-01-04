@@ -1,4 +1,4 @@
-import { createSlice, current } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 const initState = {
   tasks: [],
@@ -31,7 +31,6 @@ const newListSlice = createSlice({
         task: task,
         id: Math.floor(Math.random() * 10000),
       });
-      console.log(current(state));
     },
     removeTask(state, action) {
       const taskId = action.payload.id;
@@ -44,7 +43,6 @@ const newListSlice = createSlice({
         taskId: taskId,
       });
       state.tasks = state.tasks.filter((item) => item.id !== taskId);
-      console.log(current(state));
     },
     addTaskToImportant(state, action) {
       const taskName = action.payload;
